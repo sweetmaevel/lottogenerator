@@ -1,21 +1,19 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <LottoGenerator/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import LottoGenerator from './components/LottoGenerator.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    LottoGenerator,
   }
 }
 </script>
 
 <style>
-#app {
+#LottoGeneratorapp {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
